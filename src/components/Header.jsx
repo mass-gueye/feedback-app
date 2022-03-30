@@ -1,28 +1,30 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from "react";
+import PropTypes from "prop-types";
+// import { Link } from "react-router-dom";
 export default function Header({ text, bgColor, textColor }) {
   const headerStyles = {
     backgroundColor: bgColor,
     color: textColor,
-  }
+  };
   return (
     <header style={headerStyles}>
       <div className="container">
-        <h2>{ text }</h2>
+        {/* <Link to="/"> */}
+        <h2>{text}</h2>
+        {/* </Link> */}
       </div>
     </header>
-  )
+  );
 }
 
 Header.defaultProps = {
-  text: 'Feedback UI',
-  bgColor: 'rgba(0,0,0,0.4)',
-  textColor: '#ff6895',
-}
+  text: "Feedback UI",
+  bgColor: "rgba(0,0,0,0.4)",
+  textColor: "#ff6895",
+};
 
 Header.propTypes = {
   text: PropTypes.string,
   bgColor: PropTypes.string,
   textColor: PropTypes.string,
-  
-}
+};

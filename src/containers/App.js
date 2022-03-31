@@ -9,7 +9,6 @@ import AboutIconLink from "../components/AboutIconLink";
 import { FeedbackProvider } from "../context/FeedbackContext";
 
 export default function App() {
-  
   return (
     <FeedbackProvider>
       <Router>

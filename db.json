@@ -11,14 +11,9 @@
       "text": "This is an feedback coming from the backend 2"
     },
     {
-      "id": 3,
-      "rating": 8,
-      "text": "This is an feedback coming from the backend 3"
-    },
-    {
-      "rating": "5",
-      "text": "from postman item omg",
-      "id": 4
+      "text": "This is an feedback coming from the backend 3(updated)",
+      "rating": 6,
+      "id": 3
     }
   ]
 }
